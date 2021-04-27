@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Client Scipt example field value second</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(g_form.isNewRecord())
+	g_form.setMandatory('description');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-27 09:17:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b5f6f8d0733201090bff1d08c1ed073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Client Scipt example field value second</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_563849_loaner_re">3fcf5dbc0733201090bff1d08c1ed049</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">3fcf5dbc0733201090bff1d08c1ed049</sys_scope>
+        <sys_update_name>sys_script_client_2b5f6f8d0733201090bff1d08c1ed073</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-27 09:17:43</sys_updated_on>
+        <table>x_563849_loaner_re_loanertable</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">3fcf5dbc0733201090bff1d08c1ed049</application>
+        <file_path/>
+        <instance_id>3a9227e8dba83b002f68c597059619f2</instance_id>
+        <instance_name>dev77744</instance_name>
+        <name>sys_script_client_2b5f6f8d0733201090bff1d08c1ed073</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Client Scipt example field value second&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(g_form.isNewRecord())
+	g_form.setMandatory('description');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-27 09:17:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2b5f6f8d0733201090bff1d08c1ed073&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Client Scipt example field value second&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Request" source="x_563849_loaner_re"&gt;3fcf5dbc0733201090bff1d08c1ed049&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Request"&gt;3fcf5dbc0733201090bff1d08c1ed049&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_2b5f6f8d0733201090bff1d08c1ed073&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-27 09:17:43&lt;/sys_updated_on&gt;&lt;table&gt;x_563849_loaner_re_loanertable&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>568161100</payload_hash>
+        <record_name>Client Scipt example field value second</record_name>
+        <reverted_from/>
+        <source>b7c0e7c10733201090bff1d08c1ed03d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-27 09:17:43</sys_created_on>
+        <sys_id>d5cf638d0733201090bff1d08c1ed0e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179129ebc610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-27 09:17:43</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>11cf638d36332010a199ba4947d253e9</update_guid>
+        <update_guid_history>11cf638d36332010a199ba4947d253e9:568161100</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-27 09:43:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7b008b2baed044ea86888db486e155f1</sys_id>
+        <sys_metadata>2b5f6f8d0733201090bff1d08c1ed073</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Client Scipt example field value second</sys_name>
+        <sys_package display_value="Loaner Request" source="x_563849_loaner_re">3fcf5dbc0733201090bff1d08c1ed049</sys_package>
+        <sys_parent display_value="LoanerTable">528069fc0733201090bff1d08c1ed02a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">3fcf5dbc0733201090bff1d08c1ed049</sys_scope>
+        <sys_scope_delete display_value="">1c7acf5dc86e4ffa8ee89e768fd5dae4</sys_scope_delete>
+        <sys_update_name>sys_script_client_2b5f6f8d0733201090bff1d08c1ed073</sys_update_name>
+        <sys_update_version display_value="sys_script_client_2b5f6f8d0733201090bff1d08c1ed073">d5cf638d0733201090bff1d08c1ed0e9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-27 09:43:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

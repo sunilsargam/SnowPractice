@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="LoanerTable" max_length="40" name="x_563849_loaner_re_loanertable" sizeclass="0" type="collection"/>
+    <element extends="task" label="LoanerTable" max_length="40" name="x_563849_loaner_re_loanertable" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tired of Snow ?" max_length="40" name="tired_of_snow" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="This is joke"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="This is joke" sequence="2" value="Test"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Choice Field" max_length="40" name="u_test_field" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Dont Select"/>
+                <element inactive_on_update="false" label="Select" sequence="0" value="Select"/>
+                <element inactive_on_update="false" label="Dont select" sequence="1" value="DeSelect"/>
+            </choice>
+        </element>
+    </element>
 </database>
