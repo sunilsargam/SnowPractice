@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="LoanerTable" max_length="40" name="x_563849_loaner_re_loanertable" sizeclass="0" type="collection"/>
+</database>
